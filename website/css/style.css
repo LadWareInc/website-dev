@@ -109,6 +109,7 @@ body
 .column-3
 {
 
-	Float:left;
+	float:left;
 	width: 33%;
+	position: relative;
 }
