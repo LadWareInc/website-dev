@@ -106,3 +106,9 @@ body
 {
 	height: 1920px;
 }
+#column-33
+{
+
+	Float:left;
+	width: 33%;
+}
