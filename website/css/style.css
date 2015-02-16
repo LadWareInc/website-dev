@@ -124,11 +124,11 @@ body
 	float:left;
 	width: 33%;
 	position: relative;
-	border: 2px solid #9f1c1c;
+	
 }
 .column-3:hover
 {
-	border: 4px solid #1B789F;
+	
 }
 .clearfix:after {
 visibility: hidden;
@@ -137,4 +137,11 @@ font-size: 0;
 content: " ";
 clear: both;
 height: 0;
+}
+h1
+{
+	font-size: 60;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: bold;
 }
