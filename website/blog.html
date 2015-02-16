@@ -33,13 +33,32 @@
             </div>
         </div>
     </div>
+    <div class="body-container clearfix">
+        <div class="blog-columns">
+            <div class="column-3">
+                <p>mAKING THINGS WORK</p>
+                <br />
+                <p>gotta see if the thing works first</p>
+            </div>
+            <div class="column-3">
+                <p>mAKING THINGS WORK</p>
+                <br />
+                <p>gotta see if the thing works first</p>
+            </div>
+            <div class="column-3">
+                <p>mAKING THINGS WORK</p>
+                <br />
+                <p>gotta see if the thing works first</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
 function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 60,
+            shrinkOn = 5,
             header = document.querySelector("header-container");
         if (distanceY > shrinkOn) {
             $('#header-container').addClass("smaller");
@@ -52,10 +71,5 @@ function init() {
 }
 window.onload = init();
 </script>
-<div class="column-3">
-    <p>mAKING THINGS WORK</p>
-    <br />
-    <p>gotta see if the thing works first</p>
-</div>
 </body>
 </html>

@@ -35,11 +35,14 @@
     </div>
 </div>
 
+<div class="body-container">
+</div>
+
 <script>
 function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 60,
+            shrinkOn = 5,
             header = document.querySelector("header-container");
         if (distanceY > shrinkOn) {
             $('#header-container').addClass("smaller");
