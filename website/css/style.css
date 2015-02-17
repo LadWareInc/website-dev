@@ -145,3 +145,7 @@ h1
 	text-align: center;
 	text-decoration: bold;
 }
+.blog-image {
+	width: 100%;
+	height: 100%;
+}
