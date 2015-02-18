@@ -175,3 +175,61 @@ h3 {
 	color:#191919;
 	text-align: center;
 }
+#sect1
+{
+	background-color: #D32F2F;
+}
+#sect1 h6 {
+position: relative;
+font-weight: normal;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+color: #f7f5f5;
+}
+#sect2
+{
+	background-color: #f7f5f5;
+}
+#sect2 h6 {
+position: relative;
+font-weight: normal;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+color: #D32F2F;
+}
+#sect2 sub {
+color: #D32F2F;
+}
+#sect3 h6 {
+position: absolute;
+font-weight: normal;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+width: 100%;
+text-align: center;
+z-index:869;
+color: #f7f5f5;
+}
+h6 {
+line-height: 1.1em;
+font-weight: normal;
+margin-top: 0%;
+letter-spacing: .01em;
+font-family: 'Roboto', sans-serif;
+font-size: 160px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+.full
+{
+	width: 100%;
+	height: auto;
+}
