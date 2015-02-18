@@ -188,6 +188,9 @@ top: 50%;
 transform: translateY(-50%);
 color: #f7f5f5;
 }
+#sect1 h6 sub {
+font-size: 12px;
+}
 #sect2
 {
 	background-color: #f7f5f5;
