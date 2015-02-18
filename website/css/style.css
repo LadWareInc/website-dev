@@ -162,3 +162,16 @@ h2 {
 	text-align: center;
 	color:#FFFFFF;
 }
+h3 {
+	text-align:center;
+	color:#131313;
+}
+.light {
+	background-color: #E8E8E8;
+}
+.darkp {
+	text-decoration: bold;
+	font-weight: 300;	
+	color:#191919;
+	text-align: center;
+}
