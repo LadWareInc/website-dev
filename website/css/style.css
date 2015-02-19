@@ -239,18 +239,45 @@ width: 80%;
 #sect4 h6 {
 position: relative;
 font-weight: normal;
-top: 50%;
+top: 25%;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
 color: #D32F2F;
 font-size: 80px;
 }
-.button {
+.cbutton {
 	float: left;
-	padding-left: 12.5%;
-	padding-top: 12.5%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	opacity: 1;
 }
-.button:hover {
-	background-color: #C20000;
+.cbuttonchild
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+.button-cont
+{
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+.button-cont:hover .cbutton {
+	opacity: 0;
+}
+.button-cont:hover .cbuttonchild
+{
+	opacity: 1;
+}
+.cbtns
+{
+	margin: 0 auto;
+	width: 592px;
 }
