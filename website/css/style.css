@@ -206,7 +206,7 @@ color: #D32F2F;
 }
 #sect2 sub {
 color: #D32F2F;
-}
+	}
 #sect3 h6 {
 position: absolute;
 font-weight: normal;
@@ -235,4 +235,22 @@ width: 80%;
 {
 	width: 100%;
 	height: auto;
+}
+#sect4 h6 {
+position: relative;
+font-weight: normal;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+color: #D32F2F;
+font-size: 80px;
+}
+.button {
+	float: left;
+	padding-left: 12.5%;
+	padding-top: 12.5%;
+}
+.button:hover {
+	background-color: #C20000;
 }
